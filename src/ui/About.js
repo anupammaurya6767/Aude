@@ -33,7 +33,7 @@ const About = () => {
                   <img src={about_img} className="img-fluid" alt="Helping Clients achieve their Vision" title="Helping Clients achieve their Vision" />
                </div>
                <div className="col-lg-6">
-                  <p> Aude is a trailblazing IT services and consulting company dedicated to bringing our clients' visions to fruition. From our inception, our mission has been clear — to collaborate closely with our clients in the IT sector, driving growth in their top-line revenue.</p>
+                  <p> Aude is a trailblazing IT services company dedicated to bringing our clients' visions to fruition. From our inception, our mission has been clear — to collaborate closely with our clients in the IT sector, driving growth in their top-line revenue.</p>
                   <p> The name "Aude" reflects our commitment to audacious goals and innovative solutions. We exist to elevate the success of our clients, providing tailored IT services that significantly impact their revenue streams.</p>
                   <p> Since our establishment, Aude has experienced remarkable growth, swiftly becoming a prominent player in the IT services landscape. We've generated substantial revenues for our clients, currently catering to a growing base of satisfied customers.</p>
                   <p> Beyond our commitment to client success, Aude is deeply rooted in corporate responsibility. Our vision encompasses financial success, employee well-being, and community support. As part of our commitment, Aude allocates a portion of our earnings to make a positive impact on the world. Join us on a transformative journey where success harmonizes with social responsibility.</p>
@@ -51,7 +51,7 @@ const About = () => {
                         <div className="col-xl-12">
                            <div className="card-body">
                               <h4 className="card-title"> Vision</h4>
-                              <p>At Aude, our vision is to emerge as the global leader in IT services and consulting, setting the standard for excellence in value-added solutions. We aim to create unparalleled value for our customers and stakeholders, establishing a lasting impact on the industries we serve.</p>
+                              <p>At Aude, our vision is to emerge as the global leader in IT services , setting the standard for excellence in value-added solutions. We aim to create unparalleled value for our customers and stakeholders, establishing a lasting impact on the industries we serve.</p>
                            </div>
                         </div>
                      </div>
@@ -92,7 +92,7 @@ const About = () => {
          <div className="container">
             <div className="section-header">
                <h2>Our Team</h2>
-               <p>Harnessing profound experience within the IT services and consulting landscape, Aude's leadership team is devoted to surpassing customer expectations. Through innovative and cost-effective solutions, industry insights, and unmatched services, we are dedicated to delivering excellence and shaping a transformative future for our clients.</p>
+               <p>Harnessing profound experience within the IT services landscape, Aude's leadership team is devoted to surpassing customer expectations. Through innovative and cost-effective solutions, industry insights, and unmatched services, we are dedicated to delivering excellence and shaping a transformative future for our clients.</p>
             </div>
             {/* <div className="row member d-flex align-items-center ">
                <div className="col-md-2">

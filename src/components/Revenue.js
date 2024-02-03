@@ -12,9 +12,9 @@ const Revenue = () => {
             <div className="row">
               <div className="col-md-7">
                 <h4>Elevate Your Business, Boosting Revenue and Efficiency</h4>
-                <p>As a burgeoning startup in IT services and consulting, we bring a wealth of expertise, fortified by almost two decades of experience as a VAS major. Our innovative product line is crafted to cater to the diverse needs of consumers, ensuring meaningful and engaging content.</p>
-                <p> Remaining on the cutting edge of technology trends and fostering constant innovation, we pride ourselves on enhancing the business impact for our clients. Witness the joy on your team's faces as we drive upward revenue trends.</p>
-                <p> At our core, we are dedicated to uncovering fresh revenue streams for our partners through our bespoke IT services and consulting solutions, tailored to meet each client's unique requirements. Join us on the journey to optimize your business and drive success with our forward-thinking approach.</p>
+                <p>As a dynamic startup in IT Services, we bring forth a wealth of expertise honed over years in the industry. Our innovative product line is meticulously crafted to address the diverse needs of both businesses and individuals, ensuring the delivery of meaningful and engaging content.</p>
+                <p> Remaining at the forefront of technology trends and fostering a culture of constant innovation, we take pride in amplifying impact for our clients, leading to upward trends in both business growth and personal development.</p>
+                <p> At our core, we are dedicated to discovering fresh solutions for our partners through bespoke IT services, tailored to each client's unique requirements. Join us on the journey to optimize your business and personal endeavors with our forward-thinking approach.</p>
                 <Link to="/about" className="btn-get-started">Read More</Link>
               </div>
               <div className="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">

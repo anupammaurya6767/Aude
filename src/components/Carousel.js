@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import shapeImg from "../img/img-wave2.png";
-import heroImg1 from "../img/header/hero-image-1.jpg";
-import heroImg2 from "../img/header/hero-image-2.jpg";
-import heroImg3 from "../img/header/hero-image-3.jpg";
-import heroImg4 from "../img/header/hero-image-4.jpg";
+import heroImg1 from "../img/header/ph4.jpeg";
+import heroImg2 from "../img/header/ph2.jpeg";
+import heroImg3 from "../img/header/ph3.jpeg";
+import heroImg4 from "../img/header/ph6.jpeg";
+
 import { Link } from "react-router-dom";
 import '../../node_modules/react-modal-video/css/modal-video.css'
 import ModalVideo from 'react-modal-video'
@@ -22,7 +23,7 @@ const Carousel = () => {
           >
             <div className="col-lg-7 col-md-12 col-12">
               <h2 data-aos="fade-up">
-              Global leader in providing innovative solutions across a diverse range of industries
+              Welcome to Aude: Your Comprehensive IT Services Provider
               </h2>
               <blockquote data-aos="fade-up" data-aos-delay="100">
                 <p>
@@ -33,8 +34,8 @@ const Carousel = () => {
                 <Link to="/about" className="btn-get-started">
                   Read More
                 </Link>
-                <ModalVideo channel='youtube' autoplay='true' isOpen={isOpen} videoId="yqWX86uT5jM" onClose={() => setOpen(false)} />
-              <span className="btn-watch-video d-flex align-items-center pointer" onClick={()=> setOpen(true)}> <i className="bi bi-play-circle-fill"></i>
+                <ModalVideo channel='youtube' autoplay='true' isOpen={isOpen} videoId="" onClose={() => setOpen(false)} />
+              <span className="btn-watch-video d-flex align-items-center pointer" onClick={()=> setOpen(false)}> <i className="bi bi-play-circle-fill"></i>
                 <span>Watch Intro</span>
               </span>
               </div>
@@ -51,7 +52,7 @@ const Carousel = () => {
                       type="button"
                       data-bs-target="#carouselExampleFade"
                       data-bs-slide-to="0"
-                      className="active"
+                      className="active bg-white"
                       aria-current="true"
                       aria-label="Slide 1"
                     ></button>
@@ -59,18 +60,21 @@ const Carousel = () => {
                       type="button"
                       data-bs-target="#carouselExampleFade"
                       data-bs-slide-to="1"
+                      className="bg-white"
                       aria-label="Slide 2"
                     ></button>
                     <button
                       type="button"
                       data-bs-target="#carouselExampleFade"
                       data-bs-slide-to="2"
+                      className="bg-white"
                       aria-label="Slide 3"
                     ></button>
                     <button
                       type="button"
                       data-bs-target="#carouselExampleFade"
                       data-bs-slide-to="3"
+                      className="bg-white"
                       aria-label="Slide 3"
                     ></button>
                   </div>
@@ -79,16 +83,16 @@ const Carousel = () => {
                       className="carousel-item active"
                      
                     >
-                      <img src={heroImg1} className="d-block w-100" alt="..." />
+                      <img src={heroImg1} style = {{width: '100px', height: '319px'}} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                      <img src={heroImg2} className="d-block w-100" alt="..." />
+                      <img src={heroImg2} style = {{width: '100px', height: '319px'}} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                      <img src={heroImg3} className="d-block w-100" alt="..." />
+                      <img src={heroImg3} style = {{width: '100px', height: '319px'}} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                      <img src={heroImg4} className="d-block w-100" alt="..." />
+                      <img src={heroImg4} style = {{width: '100px', height: '319px'}} className="d-block w-100" alt="..." />
                     </div>
                   </div>
                 </div>

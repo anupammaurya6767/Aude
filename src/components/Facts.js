@@ -9,8 +9,8 @@ const Facts = () => {
     <div className="row justify-content-center">
       <div className="col-lg-12 text-center">
         <div className="section-header">
-          <h2 className="text-white">Our Influence</h2>
-          <p>Empowering success for millions of projects worldwide...</p>
+          <h2 className="text-black">Our Influence</h2>
+          <p>At Aude, our comprehensive IT services empower the success of projects worldwide...</p>
         </div>
         <div className="row impact-counters">
           <div className="col-lg-4 col-6 text-center">

@@ -19,15 +19,15 @@ const Footer = () => {
                 We are committed to redefining possibilities in the digital landscape. Explore the forefront of technology with Aude IT Solutions, where innovation knows no bounds.
                 </p>
                 <div className="social-links d-flex  mt-3">
-                  <Link to="/" className="twitter">
+                  <Link to="https://twitter.com/aude_itsol" className="twitter">
                     <i className="bi bi-twitter"></i>
                   </Link>
 
-                  <Link to="/" className="facebook">
-                    <i className="bi bi-facebook"></i>
+                  <Link to="https://www.instagram.com/audeitsolutions/" className="instagram">
+                    <i className="bi bi-instagram"></i>
                   </Link>
                   
-                  <Link to ="https://www.linkedin.com/company/symbiotic-infotech-pvt-ltd/" className="linkedin">
+                  <Link to ="https://www.linkedin.com/in/aude-it-solutions-a65b182b2/" className="linkedin">
                     <i className="bi bi-linkedin"></i>
                   </Link>
                 </div>
@@ -62,23 +62,39 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink smooth to ="/services/#Educational-content">
-                      Educational Content
+                    <HashLink smooth to ="/services/#Web-Development">
+                      Web Development
                     </HashLink>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink smooth to ="/services/#Entertainment-content">
-                      Entertainment Content
+                    <HashLink smooth to ="/services/#App-Development">
+                      App Development
                     </HashLink>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink smooth to="/services/#Games">Games</HashLink>
+                    <HashLink smooth to="/services/#AR-VR-Services">AR/VR Services</HashLink>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink smooth to ="/services/#Sports">Sports</HashLink>
+                    <HashLink smooth to ="/services/#Photography-Services">Photography Services</HashLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <HashLink smooth to ="/services/#Bot-Services">Bot Services</HashLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <HashLink smooth to ="/services/#AI-ML-Services">AI & ML Services</HashLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <HashLink smooth to ="/services/#UI-UX-Services">UI/UX Services</HashLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <HashLink smooth to ="/services/#Blockchain-Services">Blockchain Services</HashLink>
                   </li>
                 </ul>
               </div>
@@ -86,13 +102,13 @@ const Footer = () => {
                 <h4>Contact Us</h4>
                 <address>
                  
-                  #1,Sundaram Illam, <br /> Chellamal Street, <br /> Shenoy
+                  {/* #1,Sundaram Illam, <br /> Chellamal Street, <br /> Shenoy
                   Nagar, Chennai - 600 030. <br />
-                  <br />
-                  <strong>Phone:</strong> +91 - 44 - 4208 2102 <br />
+                  <br /> */}
+                  <strong>Phone:</strong> +91 70425 25269 <br />
                   <strong>Email: </strong>
-                  <a href="mailto:info@symbioticinfo.com">                  
-                     info@symbioticinfo.com
+                  <a href="mailto:audeitsolutions@gmail.com">                  
+                     audeitsolutions@gmail.com
                   </a> 
                   <br />
                 </address>

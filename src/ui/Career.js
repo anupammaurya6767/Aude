@@ -16,7 +16,7 @@ const Career = () => {
           <div className="container" data-aos="fade-up">
             <div className="section-header">
               <h2>
-                Do what you LOVE, Inviting you to build a great future with us
+              Join Our Team of Innovators
               </h2>
             </div>
 
@@ -25,29 +25,27 @@ const Career = () => {
                 <img
                   src={career}
                   className="img-fluid"
-                  alt="Do what you LOVE, Inviting you to build a great future with us"
-                  title="Do what you LOVE, Inviting you to build a great future with us"
+                  style={{ width: '400px', height: '400px' }}
+                  alt="Do what you LOVE!, Inviting you to build a great future with us"
+                  title="Do what you LOVE!, Inviting you to build a great future with us"
                 />
               </div>
               <div className="col-lg-6">
                 <p>
-                  People! An essential part of any successful business, drive
-                  the Organization in the right direction. With our accelerated
-                  business expansion, we are always on the lookout for a
-                  talented pool of resources to grow with our organization.
+                Are you passionate about pushing the boundaries of technology and driving innovation? At Aude, we're building a team of exceptional individuals who excel in web and app development, AI, AR/VR, photography, bot development, UI/UX design, and blockchain solutions.
                 </p>
                 <p>
-                  We look at talent with a long-term plan where they can be
-                  groomed for different roles People with the right attitude and
-                  great aspirations. At Symbiotic, we have an exciting work
-                  atmosphere with exceptional growth opportunities.
+                At Aude, we believe in fostering creativity and providing our team with the resources and support they need to thrive. Whether you're a seasoned developer, a visionary designer, or a tech enthusiast eager to explore new frontiers, we invite you to join us in shaping the future of digital solutions.
+                </p>
+                <p>
+                Join Aude to collaborate with a dynamic team in a supportive environment, where your ideas shape the future of technology. From crafting cutting-edge applications to revolutionizing user experiences, your contributions will empower businesses and individuals alike. With ongoing learning opportunities and a supportive culture, we're committed to helping you unlock your full potential and take your career to new heights.
                 </p>
                 <div className="content">
                   <blockquote>
                     <p>
-                      Please send your resumes to
-                      <a href="mailto:hr@symbioticinfo.com">
-                        hr@symbioticinfo.com
+                      Please send your resumes to &nbsp;
+                      <a href="mailto:audeitsolutions@gmail.com">
+                        audeitsolutions@gmail.com
                       </a>
                     </p>
                   </blockquote>

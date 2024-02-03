@@ -9,7 +9,7 @@ const ServiceList = () => {
           <div className="section-header">
             <h2>What we do? </h2>
             <p>
-            We excel as a global leader in IT services, offering a comprehensive range of solutions.{" "}
+            At Aude, we deliver a comprehensive spectrum of IT solutions tailored to meet all your needs.{" "}
             </p>
           </div>
           <div className="row gy-5">
