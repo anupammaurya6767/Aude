@@ -55,7 +55,7 @@ const Contact = () => {
     setSubmitting(true);
 
     // email configure
-    emailjs.sendForm('service_k80xoyk', 'template_q6z4pl4', form.current, 'yV95_dZd7WA5uN3f7')
+    emailjs.sendForm('service_8b2v2au', 'template_80vxrm8', form.current, 'IG76RBbNbbbQAdzPV')
       .then((result) => {
           //console.log(result.text);
           //console.log("Message sent successfully")
