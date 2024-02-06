@@ -96,6 +96,10 @@ const Footer = () => {
                     <i className="bi bi-dash"></i>
                     <HashLink smooth to ="/services/#Blockchain-Services">Blockchain Services</HashLink>
                   </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <HashLink smooth to ="/services/#Business-Services">Business Services</HashLink>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">

@@ -8,6 +8,7 @@ import photo from "../img/gifs/gifs/photo.gif";
 import block from "../img/gifs/gifs/block.gif";
 import ui from "../img/gifs/gifs/ui.gif";
 import web from "../img/gifs/gifs/web.gif";
+import busy from "../img/gifs/gifs/migration.gif"
 
 import AOS from 'aos';
 import '../../node_modules/aos/dist/aos.css'
@@ -300,6 +301,39 @@ const Service = () => {
                 data-aos-delay="800"
               >
                 <img src={block} className="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="services-list ">
+          <div className="container" id="Business-Services">
+            <div className="row gy-5  align-items-center">
+              <div
+                className="col-lg-5 col-md-6 service-item "
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
+                <img src={busy} className="img-fluid" alt="" />
+              </div>
+
+              <div
+                className="col-lg-7 col-md-6 service-item"
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
+                <div className="icon flex-shrink-0">
+                <i
+                    className="bi bi-currency-exchange"
+                    style={{ color: "#D4AF37" }}
+                  ></i>
+                </div>
+                <div>
+                  <h4 className="title">Business Services </h4>
+                  <p className="description">
+                  Aude specializes in delivering tailored business services aimed at empowering organizations to thrive in today's competitive landscape. Our comprehensive suite of solutions includes strategic consulting, business process optimization, project management, and IT infrastructure management. With a deep understanding of industry trends and client needs, we work closely with businesses to develop customized strategies and solutions that drive growth, efficiency, and innovation. From streamlining operations to maximizing ROI, Aude is dedicated to helping businesses achieve their objectives and stay ahead of the curve in an ever-evolving market.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

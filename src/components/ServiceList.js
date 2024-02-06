@@ -229,6 +229,33 @@ const ServiceList = () => {
                 </div>
               </div>
             </div>
+            <div
+              className="col-lg-6 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="single-service">
+                <div className="icon flex-shrink-0">
+                  <i
+                    className="bi bi-currency-exchange"
+                    style={{ color: "#D4AF37" }}
+                  ></i>
+                </div>
+                <div>
+                  <h4 className="title">
+                    <Link to="/services" className="stretched-link">
+                    Business Services
+                    </Link>
+                  </h4>
+                  <p className="description">
+                  Aude specializes in delivering tailored business services aimed at empowering organizations to thrive in today's competitive landscape. Our comprehensive suite of solutions includes strategic consulting, business process optimization, project management, and IT infrastructure management. With a deep understanding of industry trends and client needs, we work closely with businesses to develop customized strategies and solutions that drive growth, efficiency, and innovation. From streamlining operations to maximizing ROI, Aude is dedicated to helping businesses achieve their objectives and stay ahead of the curve in an ever-evolving market.
+                  </p>
+                  <Link to="/services" className="btn-get-started">
+                    Read More
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
